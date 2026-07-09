@@ -1,0 +1,9 @@
+{
+	"id": "llm-tts",
+	"name": "LLM TTS",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.0",
+	"description": "Streaming LLM chat with optional TTS voice reply (OpenAI-compatible API + custom HTTP TTS / Web Speech fallback).",
+	"author": "you",
+	"isDesktopOnly": false
+}
