@@ -1,27 +1,18 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build artifacts
-*.js.map
-*.zip
-main.zip
-
-# Dependencies
+# 忽略所有开发源码与工程配置文件
+src/
 node_modules/
+package.json
+package-lock.json
+tsconfig.json
+esbuild.config.mjs
+github.md
+plan.md
+main.zip
+*.zip
+*.log
+*.js.map
+.claude/
 
-# OS / editor
-.DS_Store
-.idea/
-.vscode/
-*.swp
-
-# Obsidian / User Data
+# 忽略本地隐私与密钥
 keys.json
 history.json
-
-# AI workspace
-.claude/
