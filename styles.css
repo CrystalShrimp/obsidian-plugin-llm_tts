@@ -212,6 +212,8 @@
   line-height: 1.55;
   word-break: break-word;
   white-space: pre-wrap;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 .llm-tts-chatbox__msg.is-user .llm-tts-chatbox__bubble {
@@ -629,7 +631,9 @@
 }
 
 .llm-tts-prompt-modal__content-single,
-.llm-tts-prompt-modal__content-multi {
+.llm-tts-prompt-modal__content-multi,
+.llm-tts-prompt-modal__content-speech,
+.llm-tts-prompt-modal__content-role {
   width: 100%;
   min-height: 180px;
   font-family: var(--font-monospace);
@@ -643,7 +647,9 @@
 }
 
 .llm-tts-prompt-modal__content-single:focus,
-.llm-tts-prompt-modal__content-multi:focus {
+.llm-tts-prompt-modal__content-multi:focus,
+.llm-tts-prompt-modal__content-speech:focus,
+.llm-tts-prompt-modal__content-role:focus {
   outline: none;
   border-color: var(--interactive-accent);
 }
@@ -664,6 +670,8 @@
   background: var(--background-secondary-alt);
   font-size: var(--font-small);
   width: 100%;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 .llm-tts-chatbox__step1-container.is-hidden {
